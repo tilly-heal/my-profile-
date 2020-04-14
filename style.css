@@ -1,0 +1,98 @@
+/* Colours and fonts*/
+
+p {
+	background-color: white; 
+	font-family: futura;
+	font-size: 16;
+	color: #323EDD;
+}
+
+h1 {
+	color: #e82a34;
+	font-family: futura; 
+	font-weight: 500; 
+	letter-spacing:  2 px;  
+	font-size: 30px; 
+}
+
+h2 {
+	color: #e82a34;
+	font-family: futura; 
+	font-weight: 510; /*can put in lighter or heavier as a value*/
+	letter-spacing:  2 px;  
+	font-size: 24px; 
+}
+
+a {
+	text-decoration: none;
+	color: #323EDD;
+	font-weight:  
+	font-family: futura;
+}
+
+a:hover {
+	color: #ff7c98;
+}
+
+
+
+
+
+/* there is a double up with element style & container, Boris just did container */ 
+
+/*Custom design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto; 
+} 
+
+.card-white{
+	background-color: white; 
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+	border-radius: 4px; 
+	margin: 20px 0px; 
+	text-align: center; 
+}
+
+.img-circle {
+	border-radius: 50%; 
+}
+
+.btn-pink {
+	background-color: #ff7c98;  
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px; 
+	font-family: futura; 
+}
+.btn-pink:hover{
+	background-color: #323EDD;
+	color: white; 
+}
+
+.list-inline{
+	list-style: none; 
+	padding-left: 0px; 
+}
+
+.list-inline li{
+	display: inline;
+	padding; 10px;  
+}
+
+.list-inline i {
+	font-size: 50px; 
+}
+
+#introduction p {
+	margin: 40px;
+	font-color: #ff7c98;
+}
+
+
+
+
+
+
